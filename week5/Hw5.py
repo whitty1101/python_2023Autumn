@@ -22,7 +22,7 @@ def traverse(head):
     ptr = head
     while ptr!= None:
         print('The name of the employee is {}.'.format(ptr.name))
-        print('The age of the emploryee is {}.'.format(ptr.age))
+        print('The age of the employee is {}.'.format(ptr.age))
         ptr = ptr.next
 
 

@@ -1,19 +1,16 @@
-class employee:
+class Employee:
     def __init__(self,name,age):
         self.name=name
         self.age=age
         self.next = None
 
-class Car:
-    def __init__(self, color):
-        self.color=color
-        self.next = None
-head = Car('red')
+
+head = Employee('Emma',21)
 head.next = None
 def traverse(head):
     ptr = head
     while ptr!= None:
-        print('The color of the car is {}.'.format(ptr.color))
+        print('The color of the car is {}.'.format(ptr.name))
         ptr = ptr.next
 
 print('Finish traverse!')

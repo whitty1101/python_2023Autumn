@@ -6,9 +6,7 @@ def is_prime(num):
             return False
     return True
 
-def check_neither_prime(num):
-    return not is_prime(num)
 
-number = 4
-result = check_neither_prime(number)
-print(f" Is {number} prime= {result}")   
+number = 2
+result = is_prime(number)
+print(f" Is {number} prime? {result}")   

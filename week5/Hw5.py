@@ -1,4 +1,4 @@
-class Car:
+class Employee:
     def __init__(self, name, age):
         self.name=name
         self.age=age
@@ -6,14 +6,14 @@ class Car:
 # Initiate the first element of single linked list.
 
 
-red = Car('Amy','25')
+red = Employee('Amy','25')
 red.next = None
 
-blackcar=Car('Eddy','25')
+blackcar=Employee('Eddy','43')
 blackcar.next=None
 
 red.next=blackcar
-blue=Car('Esme','33')
+blue=Employee('Esme','33')
 blue.next=None
 blackcar.next=blue
 

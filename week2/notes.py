@@ -11,4 +11,3 @@ if result:
     print(f"{user_input}is prime:true")
 else:
     print(f"{user_input}is prime:false")
-

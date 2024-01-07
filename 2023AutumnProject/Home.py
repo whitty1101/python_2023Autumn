@@ -122,7 +122,7 @@ def showdetail():
     detailWindow.mainloop()
 
 
-import pyrebase
+'''import pyrebase
 from tkinter import *
 config= {
   "apiKey": "AIzaSyCyAHFBC50HzoqBMSzCPKxSYt_whaqUy8w",
@@ -170,7 +170,7 @@ def addUser(view, accountentry, passwordentry):
     except Exception as e:
         print(f'Create Account Failed...')
         resultlabel['text']='Create Account Failed...'
-logwin.mainloop()
+logwin.mainloop()'''
 
 
 
@@ -260,7 +260,7 @@ home.bind('<Control- w>',closetab)
 
     
 
-ShoppingCart=Image.open("python_2023Autumn/2023AutumnProject/LOGO.png")
+ShoppingCart=Image.open("/Users/jillkaomyahoo.com.tw/Desktop/python2023spring/python_2023Autumn/2023AutumnProject/LOGO.png")
 ShoppingCart=ShoppingCart.resize((80,80))
 ShoppingCart=ImageTk.PhotoImage(ShoppingCart)
 
@@ -270,7 +270,7 @@ titlelabel=Label(inner_frame,image=ShoppingCart,width=80,height=40)
 titlelabel.grid(row=0,column=0,sticky=W)
 rank=Button(inner_frame,text='rank',font=('Inter',18),fg='#1E1E1E',bg='#ECE8E7',width=5,pady=2,command=RankWin)
 rank.grid(row=0,column=1,sticky=W+E)
-loginbutton=Button(inner_frame,text='會員登入/註冊',font=('Inter',18),fg='#1E1E1E',bg='#F8DCDC',width=10,pady=2,command=logWin)
+loginbutton=Button(inner_frame,text='會員登入/註冊',font=('Inter',18),fg='#1E1E1E',bg='#F8DCDC',width=10,pady=2)
 loginbutton.grid(row=0,column=3,sticky=E,padx=5)
 
 

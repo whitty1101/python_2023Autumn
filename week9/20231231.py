@@ -39,4 +39,4 @@ upload_blob(bucket,"taipei/Taipei101ObservatoryTicket.jpg",'Taipei/101-3.jpg')''
 
 bucket=storage.bucket()
 blob=bucket.blob('nature/sea.webp')
-blob.download_to_filename('my_love.webp')
+blob.download_to_filename('my_love1.webp')
